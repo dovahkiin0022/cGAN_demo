@@ -1,0 +1,1 @@
+{"latent_dim": 4, "selected_props": ["delta_S", "d_param", "price", "FT", "density", "hardness", "uts1200C"], "prop_dim": 7, "elem_list": ["Cr", "Hf", "Mo", "Nb", "Ta", "Ti", "V", "W", "Zr"]}

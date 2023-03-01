@@ -1,0 +1,9 @@
+name: cGAN_demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - torchvision
+  - pytorch
+  - torchaudio
+prefix: /noether/s0/aqd5773/anaconda3/envs/cGAN_demo
