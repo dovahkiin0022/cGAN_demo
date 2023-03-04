@@ -21,13 +21,13 @@ def plot(points,dset, title,  thresh=0.01):
     plt.close()
 
 class Radar(object):
-    def __init__(self, figure, title, labels, rect=None):
+    def __init__(self, title, labels, rect=None):
         if rect is None:
             rect = [0.05, 0.05, 0.9, 0.9]
 
         self.n = len(title)
         self.angles = np.arange(0, 360, 360.0/self.n)
-
+        figure = plt.figure()
         self.axes = [figure.add_axes(rect, projection='polar', label='axes%d' % i) for i in range(self.n)]
 
         self.ax = self.axes[0]
