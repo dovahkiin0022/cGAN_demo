@@ -2,7 +2,7 @@ import os
 from joblib import load
 import numpy as np
 
-ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..'))
+ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '../..'))
 
 scale_sampler = load(os.path.join(ROOT_DIR,'saved_cGAN/scale_kde_pipe.joblib'))
 

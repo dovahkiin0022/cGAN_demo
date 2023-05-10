@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import torch
 
-ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..'))
+ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '../..'))
 
 
 periodic_df = pd.read_csv(os.path.join(ROOT_DIR,'dataset/periodic_table.csv'))
