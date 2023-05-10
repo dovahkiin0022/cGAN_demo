@@ -3,8 +3,8 @@ from joblib import load
 import numpy as np
 from importlib import resources
 
-with resources.files('heagan.dataset').joinpath('saved_cGAN/scale_kde_pipe.joblib').open('r') as f:
-    scale_sampler = load(f)
+with resources.files('heagan.saved_cGAN').joinpath('scale_kde_pipe.joblib') as fname:
+    scale_sampler = load(fname)
 
 def prop_sampler(n_samples,prop_dim, default = 'normal'):
   if default == 'kde':

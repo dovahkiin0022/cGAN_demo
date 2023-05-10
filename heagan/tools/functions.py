@@ -5,8 +5,8 @@ import pandas as pd
 import torch
 from importlib import resources
 
-with resources.files('heagan.dataset').joinpath('dataset/periodic_table.csv').open('r') as f:
-    periodic_df = pd.read_csv(f)
+with resources.files('heagan.dataset').joinpath('periodic_table.csv') as fname:
+    periodic_df = pd.read_csv(fname)
 
 atomic_number_order = periodic_df['Symbol'].values[:103]
 
