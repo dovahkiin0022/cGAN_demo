@@ -3,11 +3,11 @@ import pymatgen.core as mg
 import numpy as np
 import pandas as pd
 import torch
+from importlib import resources
 
-ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '../..'))
+with resources.files('heagan.dataset').joinpath('dataset/periodic_table.csv').open('r') as f:
+    periodic_df = pd.read_csv(f)
 
-
-periodic_df = pd.read_csv(os.path.join(ROOT_DIR,'dataset/periodic_table.csv'))
 atomic_number_order = periodic_df['Symbol'].values[:103]
 
 def check_cuda():
