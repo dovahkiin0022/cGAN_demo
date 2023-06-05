@@ -7,4 +7,5 @@ applications.
 
 Stable Demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dovahkiin0022/cGAN_demo/master?filepath=cGAN_demo.ipynb)
 
-AMK Dev: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amkrajewski/cGAN_demo/master?filepath=cGAN_demo.ipynb)
+AMK Dev:     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amkrajewski/cGAN_demo/master?filepath=cGAN_demo.ipynb)
+
