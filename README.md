@@ -5,7 +5,11 @@ A demo of a conditional Generative Adversarial Network for High Entropy Alloy de
 aims to develop a new generation of materials for turbine blades in gas turbines and related
 applications.
 
-Stable Demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dovahkiin0022/cGAN_demo/master?filepath=cGAN_demo.ipynb)
+Inverse Design: [![DOI](https://img.shields.io/badge/DOI-10.20517%2Fjmi.2021.05-blue)](https://doi.org/10.20517/jmi.2021.05)
 
-AMK Dev:     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amkrajewski/cGAN_demo/master?filepath=cGAN_demo.ipynb)
+Connecting with Experiments: [![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.4501281-blue)](https://dx.doi.org/10.2139/ssrn.4501281) (accepted)
+
+**Lunch Stable Demo**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dovahkiin0022/cGAN_demo/master?filepath=cGAN_demo.ipynb)
+
+Lunch AMK Dev:     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amkrajewski/cGAN_demo/master?filepath=cGAN_demo.ipynb)
 
