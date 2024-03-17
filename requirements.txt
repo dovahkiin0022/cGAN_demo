@@ -1,0 +1,16 @@
+name: cGAN_demo_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pymatgen
+  - ca-certificates
+  - certifi
+  - openssl
+  - ipywidgets
+  - scikit-learn==1.2.2
+  - onnxruntime
+prefix: /noether/s0/aqd5773/mamba/envs/cGAN_demo_env
