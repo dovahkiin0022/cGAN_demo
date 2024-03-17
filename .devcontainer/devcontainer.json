@@ -13,8 +13,25 @@
 		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {
 			"version": "latest",
 			"variant": "Mambaforge"
-		}
-	}
+		}},
+	"customizations": {
+			"codespaces": {
+			  "openFiles": [
+				"cGAN_demo.ipynb"
+			  ]
+	},
+	"vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "mhutchie.git-graph"
+        ],
+		"settings": {
+			"python.defaultInterpreterPath": ".conda/bin/python"
+		  }
+      }
+}
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
