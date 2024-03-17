@@ -21,7 +21,6 @@
 	//		"variant": "Mambaforge"
 	//	}
 	//},
-	"postCreateCommand": "pip3 install --user -r requirements.txt",
 	"customizations": {
 			"codespaces": {
 			  "openFiles": [
@@ -30,12 +29,16 @@
 	},
 	"vscode": {
         "extensions": [
-          "ms-python.python",
-          "ms-toolsai.jupyter",
-          "mhutchie.git-graph"
+          	"ms-python.python",
+          	"ms-toolsai.jupyter",
+          	"mhutchie.git-graph",
+			"donjayamanne.python-extension-pack",
+			"GitHub.codespaces",
+			"ms-azuretools.vscode-docker",
+			"DavidAnson.vscode-markdownlint"
         ],
 		"settings": {
-			"python.defaultInterpreterPath": ".conda/bin/python"
+			"python.defaultInterpreterPath": "opt/conda/envs/cGAN_demo_env/bin/python"
 		  }
       }
 }
