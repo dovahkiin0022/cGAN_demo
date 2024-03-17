@@ -5,9 +5,12 @@ channels:
   - defaults
 dependencies:
   - numpy
-  - scikit-learn
+  - scikit-learn=1.2.2
+  - scipy
   - jupyter
   - ipywidgets
   - pytorch
-  - pip:
-      - --editable .
+  - dill
+  - pandas
+  - pymatgen
+  - onnxruntime
