@@ -2,9 +2,10 @@ import os
 from joblib import load
 import numpy as np
 from importlib import resources
+import dill
 
-with resources.files('heagan.saved_cGAN').joinpath('scale_kde_pipe.joblib') as fname:
-    scale_sampler = load(fname)
+with open(resources.files('heagan.saved_cGAN').joinpath('scale_kde_pipe.dill'),'rb') as fname:
+    scale_sampler = dill.load(fname)
 
 def prop_sampler(n_samples,prop_dim, default = 'normal'):
   if default == 'kde':
