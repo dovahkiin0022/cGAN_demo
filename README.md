@@ -9,6 +9,8 @@ Inverse Design: [![DOI](https://img.shields.io/badge/DOI-10.20517%2Fjmi.2021.05-
 
 Connecting with Experiments: [![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.4501281-blue)](https://dx.doi.org/10.2139/ssrn.4501281) (accepted)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dovahkiin0022/ULTERA_cGAN_demo?quickstart=1)
+
 **Lunch Stable Demo**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dovahkiin0022/cGAN_demo/master?filepath=cGAN_demo.ipynb)
 
 Lunch AMK Dev:     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amkrajewski/cGAN_demo/master?filepath=cGAN_demo.ipynb)
