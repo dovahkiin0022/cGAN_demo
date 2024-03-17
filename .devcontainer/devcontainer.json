@@ -13,7 +13,10 @@
 		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {
 			"version": "latest",
 			"variant": "Mambaforge"
-		}},
+		}
+	},
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+
 	"customizations": {
 			"codespaces": {
 			  "openFiles": [
@@ -30,7 +33,7 @@
 			"python.defaultInterpreterPath": ".conda/bin/python"
 		  }
       }
-},
+}
 
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -40,7 +43,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt"
+	
 
 	// Configure tool-specific properties.
 	// "customizations": {},
